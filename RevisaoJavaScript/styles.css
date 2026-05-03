@@ -1,0 +1,47 @@
+/* estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* define a fonte do texto*/
+    display: flex; /* ativa o flexbox para facilitar o alinhamento */
+    justify-content: center; /* centraliza na horizontal */
+    align-items: center; /* centraliza na vertical */
+    height: 100vh; /* altura de 100% da tela */
+    background-color: #f0f0f0; /* cor de fundo */
+}
+
+/* estiliza o container*/
+.container {
+    text-align: center; /* centraliza o texto dentro da div */
+    padding: 20px; /* espaço interno */
+    background-color: #fff;
+    border-radius: 10px; /* borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona uma sombra na caixa */
+}
+
+/* estiliza o input */
+input {
+    padding: 10px;
+    margin-right: 10px; /* margem à direita */
+    border: 1px solid #ccc; /* borda cinza clara */
+    border-radius: 5px; 
+}
+
+/* estiliza o botão */
+button {
+    padding: 10px 20px; /* espaço interno ( na vertical e  na horizontal) */
+    background-color: #007bff; 
+    color: white; /* cor do texto */
+    border: none; /* remove a borda */
+    border-radius: 5px;
+    cursor: pointer; /* muda o cursor para "mãozinha" */
+}
+
+/* efeito ao passar o mouse no botão */
+button:hover{
+    background-color: #0056b3;
+}
+
+/* estiliza o paragrafo */
+p {
+    margin-top: 20px; /* espaço  em cima */
+    font-size: 18px; /* tamanho do texto */
+}
